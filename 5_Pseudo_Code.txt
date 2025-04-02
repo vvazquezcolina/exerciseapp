@@ -1,0 +1,30 @@
+Pseudo Código (Lógica del Sistema en Texto)
+
+Si usuario abre la app:
+    Mostrar calendario
+
+Si usuario selecciona una fecha:
+    Guardar fecha seleccionada
+
+Si usuario hace clic en "Empezar ejercicio":
+    Mostrar selector de ejercicio
+
+Cuando usuario elige un ejercicio:
+    Activar cámara
+    Solicitar permisos
+    Cargar modelo de visión por computadora
+
+Mientras la cámara está activa:
+    Detectar postura del cuerpo
+    Si la postura coincide con movimiento válido:
+        Incrementar contador de repeticiones
+        Evaluar si la postura es correcta
+        Almacenar cada movimiento con timestamp
+
+Si usuario presiona "Terminar sesión":
+    Calcular evaluación total
+    Mostrar número de repeticiones y score de calidad
+    Guardar resultado en base de datos con fecha y tipo
+
+Cuando el usuario vuelva al calendario:
+    Mostrar resumen de los ejercicios por fecha

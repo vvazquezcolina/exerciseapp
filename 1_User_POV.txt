@@ -1,0 +1,19 @@
+User POV (Punto de Vista del Usuario)
+
+1. El usuario accede a la webapp desde su navegador (móvil o escritorio).
+2. En la pantalla principal, ve un calendario interactivo.
+3. Selecciona una fecha del calendario.
+4. Aparece un botón que dice “Empezar ejercicio”.
+5. Al hacer clic, se muestra un selector para elegir el tipo de ejercicio: “Lagartijas” o “Abdominales”.
+6. Al seleccionar, se abre la cámara del dispositivo y la app pide permisos de uso.
+7. La cámara comienza a analizar el movimiento del usuario.
+8. La app:
+   - Identifica el tipo de ejercicio (como verificación).
+   - Cuenta las repeticiones automáticamente.
+   - Evalúa la calidad del movimiento (postura, ritmo, etc.).
+9. Al finalizar, el usuario puede presionar “Terminar sesión”.
+10. Se le muestra un resumen:
+    - Repeticiones totales.
+    - Evaluación de calidad (porcentaje o estrellas).
+    - Comentarios automáticos (ej. “¡Buen ritmo!” o “Mejora tu postura”).
+11. Todo queda guardado en el calendario para poder consultar el historial.

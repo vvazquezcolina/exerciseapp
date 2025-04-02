@@ -1,0 +1,31 @@
+Tech Stack (Tecnologías Propuestas)
+
+Opción No-Code (Prototipo funcional mínimo):
+- Frontend: Glide o Softr (para UI y calendario).
+- Backend: Zapier o Make para automatizar registro de datos.
+- Visión por computadora: UseMotion.ai, Pico o V7 Darwin con webhook.
+- Base de datos: Google Sheets o Airtable.
+- Lógica:
+  - Zap que guarda cada repetición cuando es detectada.
+  - Webhook que evalúa calidad de movimiento.
+
+Opción Código (Avanzado y profesional):
+- Frontend: 
+  - React.js + TailwindCSS (UI moderna)
+  - Calendario: react-calendar
+  - Cámara: react-webcam
+
+- Backend: 
+  - Node.js + Express o Python (FastAPI)
+  - PostgreSQL o Firebase (para datos y autenticación)
+
+- Computer Vision:
+  - TensorFlow.js con PoseNet / MoveNet o MediaPipe
+  - Algoritmos personalizados para:
+    - Conteo de repeticiones
+    - Evaluación de ángulos y posturas
+
+- DevOps/Infraestructura:
+  - Vercel / Netlify para frontend
+  - Railway / Render para backend
+  - Supabase para auth + DB (alternativa moderna a Firebase)

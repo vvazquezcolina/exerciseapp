@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom styles for react-calendar */
+.react-calendar {
+  width: 100%;
+  border: none;
+  background: white;
+  font-family: inherit;
+}
+
+.react-calendar__tile {
+  padding: 1em 0.5em;
+}
+
+.react-calendar__tile--active {
+  background: #3b82f6 !important;
+  color: white;
+}
+
+.react-calendar__tile--now {
+  background: #e5e7eb;
+} 

@@ -1,0 +1,24 @@
+Project Division into Modules (División del Proyecto en Módulos)
+
+1. Calendario y Planificación
+   - UI del calendario
+   - Selección de fecha
+   - Asociación con datos de ejercicio
+
+2. Selector e Inicio de Ejercicio
+   - Componente de selección de ejercicio
+   - Manejo de permisos de cámara
+
+3. Computer Vision en Tiempo Real
+   - Captura y análisis de video
+   - Conteo de repeticiones
+   - Detección de tipo de ejercicio (verificación)
+   - Evaluación de calidad
+
+4. Almacenamiento y Análisis
+   - Guardado de datos por usuario y fecha
+   - Generación de reportes/resúmenes
+
+5. Resumen y Feedback Visual
+   - UI de estadísticas post-entrenamiento
+   - Comentarios generados por IA

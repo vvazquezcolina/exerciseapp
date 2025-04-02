@@ -1,0 +1,16 @@
+Information Flow (Flujo de Información)
+
+1. Input del Usuario: Fecha seleccionada → se crea entrada en DB.
+2. Selección de ejercicio → activa modelo correspondiente.
+3. Visión por computadora:
+   - Se activan puntos de referencia (keypoints) del cuerpo usando MediaPipe o MoveNet.
+   - Se mide el ángulo y posición de articulaciones claves (codos, rodillas, hombros).
+4. Conteo:
+   - Algoritmo detecta secuencias válidas de movimiento (ej. bajar-subir = 1 repetición).
+5. Evaluación:
+   - Se comparan métricas de postura (alineación, rango de movimiento) con valores ideales.
+   - Se genera un score de calidad.
+6. Almacenamiento:
+   - Tipo de ejercicio, repeticiones, calidad, fecha → guardado en Firebase/Firestore o PostgreSQL.
+7. Visualización:
+   - El usuario puede ver su historial en el calendario con visual feedback.

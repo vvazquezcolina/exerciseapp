@@ -1,0 +1,13 @@
+Backend Map (Mapa de Funcionalidad del Backend)
+
+| Acción del Usuario | Backend Necesario |
+|--------------------|-------------------|
+| Seleccionar fecha en calendario | Guardar y asociar fecha a usuario |
+| Click en "Empezar ejercicio" | Crear sesión de ejercicio asociada a fecha |
+| Elegir tipo de ejercicio | Iniciar módulo de análisis de ejercicio (modelo IA) |
+| Abrir cámara y hacer ejercicio | Capturar frames, procesar postura en tiempo real |
+| Contar repeticiones | Ejecutar lógica de conteo basada en landmarks (OpenPose / MediaPipe) |
+| Evaluar calidad | Comparar con patrones ideales de movimiento |
+| Finalizar ejercicio | Guardar resultados (tipo, repeticiones, calidad, fecha) en DB |
+| Ver resumen | Recuperar y renderizar información procesada |
+| Historial en calendario | Consultar DB por fechas con registros previos |
